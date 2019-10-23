@@ -1,0 +1,11 @@
+A Browser Extension to Detect Malicious PDFs.
+
+Presenter: Jaidipkumar Dilipbhai Patel
+First Reader: Dr. Yuan Cheng 
+Second Reader: Dr. Haiquan Chen
+
+
+Today, many resources are freely available on the Internet in the  form of PDF documents. However, freely available PDF documents may not contain what people expect. There  are several ways attacker s/viruses (e.g., Code Red, Melissa) can add malicious content to  PDF files  which can badly harm your devices (e.g., redirect you to  a fake website, corrupt your operating system, get full access to your devices).
+
+This project  aims to detect  potential malicious content in  PDF files . There are several types of malicious content such as executable JavaScript, shellcode, and adware. We will first collect the PDF file details  and save them  to a csv  file. We will use the csv file data and test it with our machine learning model which we build using Random Forest  (RF) algorithm. A result of prediction   will be given to a  Chrome   browser extension  . It  will run a detector in the background to detect  malicious  JavaScript from the PDF file  and notify users whether  the PDF file is benign or malicious during downloading.
+
